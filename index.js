@@ -16,7 +16,8 @@ const app = express();
 //enable local testing with HTTP requests
 app.use(cors({
     credentials: true,
-    origin: keys.frontEnd.URL
+    // origin: keys.frontEnd.URL
+    origin: 'http://localhost:8080'
 }));
 
 //fix deprecation warnings

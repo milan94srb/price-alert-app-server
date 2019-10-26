@@ -23,4 +23,9 @@ router.get('/google/redirect', passport.authenticate('google', {
     res.redirect(keys.frontEnd.URL);
 })
 
+//check if logged in
+router.get('/me', (req, res) => {
+    res.send(req.user);
+})
+
 module.exports = router;

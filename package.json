@@ -4,6 +4,7 @@
   "description": "Price Alert App Ver 2",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Milan Djordjevic",
@@ -22,5 +23,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }

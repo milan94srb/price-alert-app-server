@@ -12,7 +12,7 @@ module.exports = {
         sessionSecret: 'fsafjsdfklsdjfasklfjsdkl'
     },
     frontEnd: {
-        URL: 'http://localhost:8080'
+        URL: 'http://price-alert-app-2.herokuapp.com'
     },
     CMC: {
         APIkey: 'a2c2ef13-f52d-437e-8fd9-b4f776e18d87'

@@ -5,7 +5,7 @@ const User = require('../models/user');
 
 passport.use(new GoogleStrategy({
     //strategy options
-    callbackURL: '/auth/google/redirect',
+    callbackURL: 'http://price-alert-app-2.herokuapp.com/auth/google/redirect',
     clientID: keys.google.clientID,
     clientSecret: keys.google.clientSecret
 }, (token, refreshToken, profile, done) => {

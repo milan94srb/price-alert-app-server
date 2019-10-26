@@ -40,6 +40,8 @@ app.use(cookieSession({
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use('/', express.static('./public'));
+
 //initialize routes
 app.use('/api', routes);
 app.use('/auth', authRoutes);
